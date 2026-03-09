@@ -48,11 +48,12 @@
 
 #__________________________________TASK 3__________________________________________
 
-import re
+import re #import regex
 
 with open("logdata.txt", 'r') as f:
     data = f.read()
 
 allIPs = re.findall("\d{1,}\.\d{1,}\.\d{1,}\.\d{1,}", data)
 print(allIPs)
+
 print(len(allIPs))
