@@ -42,6 +42,8 @@ class CoffeeMachine():
         self.coffeesMadeByType[drink.lower()] += 1
         print(f"{drink.title()} was made successfully. Enjoy your coffee!")
 
+    
+
 
 
 thoCoffee = CoffeeMachine(1000, 1000, 100)
